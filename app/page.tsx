@@ -1,7 +1,7 @@
 import { Button } from "./_components/ui/button";
 
-export default function Home() {
-  return (
-    <Button>Hello World</Button>
-  );
-}
+const Home = () => {
+  return <Button>Hello World</Button>;
+};
+
+export default Home;
